@@ -6,10 +6,11 @@ A Magic Trick I found in a Christmas Cracker - and coded into a Python Game
 
 When I wrote this I had literally been coding for a few weeks, using PDF guides and tutorials to help
 
-I got my Pi for xmas and wrote the card trick into Python early January. I remember I knew my Bro was giving me a Pi for xmas and I had NO coding experience - my Bro gave me Python and Scratch for my PC a few weeks before to get me practising...Thats where it all started for me - Anyway enough babbling - just a bit if background info
+I got my Pi for xmas and wrote the card trick into Python early January. My Brother put Python and Scratch on my PC a few weeks before Christmas to get me practising, I had no idea he was giving me a Raspberry Pi for Xmas...I had seen scratch and the RPi on a news documentary a few weeks before - it was about ow they were being used in schools to teach programming, and I told him about it as he does some maths based programming as an engineer - So he put them on my PC and I started messing around with Scratch, then eventually plucked up the courage to explore Python...Thats where it all started for me - Anyway enough babbling - just a bit if background info
+
 
 So, The game....
-
+-----------------
 
 
 The original card trick was inside a xmas cracker as I said, it came with 6 cards and an instruction card
