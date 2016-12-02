@@ -1,4 +1,7 @@
 # Card-Trick-Game
+
+magicNumberTrick_OLD.py    is the first version I made
+magicNumberTrick_NEW.py    is the newer version I redid
 A Magic Trick I found in a Christmas Cracker - and coded into a Python Game 
 
 When I wrote this I had literally been coding for a few weeks, using PDF guides and tutorials to help
