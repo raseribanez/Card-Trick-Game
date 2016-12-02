@@ -14,8 +14,8 @@
 # for a way to display the grid in a neater fashion here it is:
 # (http://stackoverflow.com/questions/40915353/how-to-display-a-grid-of-numbers-neatly/40915777#40915777)
 # The simplest solution was given to me in the form of a function to show the grid 
-# in a 4 x 6 structure. It worked so I applied it to all of the grids. Then pretty much 
-# rewrote the whole thing.
+# in a 4 x 6 structure. It worked so I applied it to all of the grids. 
+# Then pretty much rewrote the whole thing.
 
 
 #!/usr/bin/env python
