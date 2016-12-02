@@ -20,6 +20,7 @@
 
 #!/usr/bin/env python
 import time
+import sys
 
 GRID_1 = ['32....33....34....35 \n36....37....38....39',
           '\n40....41....42....43 \n44....45....46....47',
@@ -135,8 +136,8 @@ def questions():
 
 
 def final():
-        print("Thanks For Playing Magic Number!...Would you like to play again?...Type [yes] to continue, or anything else to quit")
-        user_reply = input("> ")
+        print("Thanks For Playing Magic Number!...Would you like to play again?")
+        user_reply = input("..Type [yes] to continue, or anything else to quit\n>>> ")
         while(input):
                if user_reply == "yes":
                       questions()
