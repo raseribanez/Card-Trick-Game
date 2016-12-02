@@ -7,8 +7,22 @@
 1: The player is given 6 cards (the original trick had actual cards), each has a grid with 32 numbers.
 2: The player is asked to pick a number from any of the cards.
 3: Only the cards with the chosen number on are to be kept - the others aren't needed
-4: The remaining cards' top left numbers (top left corners) will equal the number chosen
-5: It works for ANY number that is chosen!'''
+4: The remaining cards' top left numbers (First number in the top left corners) 
+5: will equal the number chosen.  It works for ANY number that is chosen!'''
+
+# 01 / 12 / 2016
+# NOTE:
+# I reopened this after I asked a question on Stack Overflow.
+# I askied if there was a solution to put the numbers into tidy grids
+# One reply was a handy little function to put the data into 4 x 6 grids 
+# Heres the question and reply (Reply from Patrik Haugh):
+# http://stackoverflow.com/questions/40915353/how-to-display-a-grid-of-numbers-neatly/40915777#40915777
+
+# CHANGES MADE:
+# Applied the new grid function to all 6 grids to look neater
+# Added the replay function at the end of game
+# Added a few "Enter to continue" scenarios to slow things down
+# Put everything into functions for efficiency
 
 #!/usr/bin/env python
 import time
@@ -49,9 +63,6 @@ GRID_6 = ['1.....2.....5.....7\n9.....11....13...15',
           '\n49....51....53...55  \n57....59....61...63\n\n']
 
 
-
-# The function prints a grid - this came from a response to
-# a question I asked on stack
 def grid_print(GRID_1):
     for x in zip(*[iter(GRID_1)]*4):
         print('{:<4}{:^6}{:^6}{:^6}'.format(*x))
@@ -125,13 +136,6 @@ def questions():
         time.sleep(2)
         print (firstNumber + secondNumber + thirdNumber + fourthNumber)
         time.sleep(2)
-
-
-#input("\n\nPress the enter key to exit.")#THIS BASIC EXIT FUNCTION WORKS (however the program should have a loop style function to ask another question or quit - when I know how to do this properly I will update it)
-# The lines of code below were taken from a magic8ball program
-# the code is supposed to ask the user if they want to play again 
-# if [yes] is typed, it loops to the start again, and anything else typed quits the program
-# I changed the printed writing to fit with this program, but it didnt even work on the 8ball program
 
 def final():
         print("Thanks For Playing Magic Number!...Would you like to play again?")
