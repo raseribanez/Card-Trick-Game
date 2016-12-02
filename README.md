@@ -39,16 +39,16 @@ NOTE
 
 I ended up pretty much rewriting this whole program
 
-I put a question up on Stack Overflow asking about a neater way to display the grids as they were very messy, and someone gave me a nice little function to put the 32 numbers into 6 x 4 grids. I played with it and it worled...so I ended up applying it to all 6 grids. Then I wasn't happy with the rest of it. I wrote the original very early on when I started Python, like within the first weeks and I just had all the code in one huge block.
+I put a question up on Stack Overflow asking about a neater way to display the grids as they were very messy, and someone gave me a nice little function to put the 32 numbers into 6 x 4 grids. I played with it and it worked...so I ended up applying it to all 6 grids. Then I wasn't happy with the rest of it. I wrote the original version very early on when I started Python, like within the first weeks and I just had all the code in one huge block.
 
-It worked, but when I redid the grids, I just put all of the questions (the main game) into a function, so at the end I just called the game function and the replay function.
+It worked, but when I re-did the grids, I also decided to put all of the questions (the main game) into a function, so at the end I just called the game function and the replay function.
 
 I also added a few "Press enter to continue" situations because it was all moving too fast, this way the player can take their time to look over the grids and read the instructions, then continue when ready. 
 
 It is a lot tidier now to look at, and it feels better to play, the little time delays mixed with the enter prompts seem to really help!
 
 
-It feels good when you take a code you wrote a while back, and apply all of your new knowledge to make them better - feels like progress!
+It feels good when you take a code you wrote a while back, and apply all of your new knowledge to make it better in little ways - feels like progress!
 
 
 
