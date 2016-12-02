@@ -139,7 +139,7 @@ def final():
         user_reply = input("> ")
         while(input):
                if user_reply == "yes":
-                      userinput()
+                      questions()
                else:
                         print("Thanks for playing Magic Number!")
                         sys.exit(0)
