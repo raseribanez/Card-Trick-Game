@@ -1,12 +1,14 @@
 # Card-Trick-Game
 
 magicNumberTrick_OLD.py    is the first version I made
-magicNumberTrick_NEW.py    is the newer version I redid
-A Magic Trick I found in a Christmas Cracker - and coded into a Python Game 
+magicNumberTrick_NEW.py    is the newer version I re-wrote
+
+
+This is a Magic Trick I found in a Christmas Cracker - and coded into a Python Game 
 
 When I wrote this I had literally been coding for a few weeks, using PDF guides and tutorials to help
 
-I got my Pi for xmas and wrote the card trick into Python early January. My Brother put Python and Scratch on my PC a few weeks before Christmas to get me practising, I had no idea he was giving me a Raspberry Pi for Xmas...I had seen scratch and the RPi on a news documentary a few weeks before - it was about ow they were being used in schools to teach programming, and I told him about it as he does some maths based programming as an engineer - So he put them on my PC and I started messing around with Scratch, then eventually plucked up the courage to explore Python...Thats where it all started for me - Anyway enough babbling - just a bit if background info
+I got my RPi for xmas and wrote the card trick into Python early January. My Brother put Python and Scratch on my PC a few weeks before Christmas to get me practising, I had no idea he was giving me a Raspberry Pi for Xmas...I had seen Scratch and the RPi on a news documentary a few weeks before - it was about how they were being used in schools to teach programming, and I told him about it as i Know he does maths based programming as an engineer - So he put them on my PC and I started messing around with Scratch, then got bored within a few hours (it is aimed at kids after all) and decided to explore Python...Thats where it all started for me - Anyway enough babbling - Almost a year later I am still learning, and I am hooked on Python, and programming. I decided to apply my new knowledge to this little game.
 
 
 So, The game....
